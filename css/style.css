@@ -1,0 +1,90 @@
+.container {
+    max-width: 1100px;
+}
+
+html, 
+body {
+    height: 100%;
+    font-size: 16px;
+    background: url("../img/pattern.jpg") center center;
+    font-family: "Cubano-Regular";
+}
+
+/* SECTION COVER */
+
+#cover {
+    height: 100%;
+    background: url(../img/trees.jpg) center;
+    background-size: cover;
+    color: white;
+}
+
+.wall-sticker {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10rem 20rem 7rem 3rem;
+    font-family: "Cubano-Regular";
+    font-size: 3rem;
+    color: white;
+}
+
+.moto {
+    font-size: 3rem;
+    margin-top: 7rem;
+    margin-left: 20rem;
+    text-align: center;
+}
+
+
+/* BUTTONS */
+
+.btn-lg {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(19, 128, 26, 1);
+    font-family: 'Lato', sans-serif;
+    transition: 0.5s;
+
+}
+
+.btn-lg:hover,
+.btn-lg:active,
+.btn-lg:focus {
+    background-color: rgba(19, 128, 36, 0.54);
+    border: 1px solid rgba(19, 128, 26, 0);
+    transition: 0.5s;
+}
+
+.fa-arrow-down {
+    margin-left: 34rem;
+    margin-top: 40px;;
+    font-size: 2.5rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.fa-arrow-down:hover {
+    color: rgba(19, 128, 36, 0.54);
+    transition: 0.3s;
+}
+
+/* SPANS */
+
+.bold-green {
+    color: rgba(19, 128, 36, 0.9);
+}
+
+.green-underline {
+    border-bottom: 2px solid rgba(19, 128, 36, 0.9);
+}
+
+/* FONT FACES */
+
+@font-face {
+    font-family: "Cubano-Regular";
+    src: local("Cubano-Regular.otf"), url("Cubano-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Nunito-Regular";
+    src: local("Nunito-Regular.ttf"), url("Nunito-Regular.ttf") format("truetype");
+}
