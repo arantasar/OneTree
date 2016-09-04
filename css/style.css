@@ -34,10 +34,30 @@ body {
     text-align: center;
 }
 
+/* NAVBAR */
+
+.navbar-brand {
+    font-family: "Cubano-Regular";
+    padding-right: 15px;
+}
+
+#exCollapsingNavbar2 {
+    font-family: "Lato";
+}
+
+.nav-item a {
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid rgba(19, 128, 36, 0.9);
+    transition: 0.5s;
+}
 
 /* BUTTONS */
 
-.btn-lg {
+.btn-lg, .btn-success-outline {
     background-color: transparent;
     border-radius: 5px;
     border: 1px solid rgba(19, 128, 26, 1);
@@ -48,7 +68,10 @@ body {
 
 .btn-lg:hover,
 .btn-lg:active,
-.btn-lg:focus {
+.btn-lg:focus,
+.btn-success-outline:hover,
+.btn-success-outline:active,
+.btn-success-outline:focus {
     background-color: rgba(19, 128, 36, 0.54);
     border: 1px solid rgba(19, 128, 26, 0);
     transition: 0.5s;
@@ -65,6 +88,10 @@ body {
 .fa-arrow-down:hover {
     color: rgba(19, 128, 36, 0.54);
     transition: 0.3s;
+}
+
+.navbar-toggler {
+    color: white;
 }
 
 /* SPANS */
