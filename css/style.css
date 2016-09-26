@@ -193,6 +193,16 @@ body {
     padding-right: 3px;
 }
 
+/* SECTION PARALLAX */
+
+#section-parallax {
+    text-align: center;
+    background: url(../img/trees.jpg) center repeat fixed;
+    padding: 140px 0;
+    background-size: cover;
+    color: white;
+}
+
 
 /* BUTTONS */
 
@@ -229,6 +239,11 @@ body {
 
 .navbar-toggler {
     color: white;
+}
+
+.parallax-btn {
+    width: 200px;
+    margin: 30px auto 0 auto;
 }
 
 /* SPANS */
