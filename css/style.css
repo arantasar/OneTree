@@ -288,7 +288,48 @@ body {
     padding-top: 15px;
 }
 
+/* SECTION NUMBERS */
 
+#testimonials h2, #testimonials p {
+    text-align: center;
+}
+
+.section-testimonials {
+    padding-top: 5rem;
+}
+
+.testimonial {
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.customer-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.customer-image:hover {
+    transition: 0.5s;
+    transform: scale(0.95)
+}
+
+blockquote {
+    font-family: "Lato";
+    text-align: justify;
+}
+
+.fa.fa-quote-right {
+    margin-left: 10px;
+    float: right;
+}
+
+.testimonials-hr {
+    border-top: 1px solid rgba(19, 128, 36, 1);
+    width: 200px;
+    background-color: rgba(19, 128, 36, 1);
+}
 
 
 
