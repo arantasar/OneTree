@@ -583,3 +583,101 @@ footer .udemy {
     font-family: "Nunito-Regular";
     src: local("Nunito-Regular.ttf"), url("Nunito-Regular.ttf") format("truetype");
 }
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1024px) {
+    .moto {
+        font-size: 2rem;
+    }
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram,
+    .fa-chevron-circle-up {
+        font-size: 32px;
+    }
+    
+    .udemy {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .moto,
+    .fa-arrow-down {
+        display: none;
+    }
+    
+    .customer-image {
+        width: 70px;
+    }
+    
+    blockquote {
+        font-size: 14px;
+    }
+    
+    #contact .control-label,
+    .form-control {
+        font-size: 16px;
+    }
+    
+    .social-links li {
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+ 
+    #exCollapsingNavbar2,
+    .navbar-brand {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .customer-image {
+        width: 160px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    blockquote {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+    
+    .testimonial {
+        padding-bottom: 20px;
+    }
+    
+    footer {
+        padding-top: 1rem;
+    }
+    
+    .social-links {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .fa-chevron-circle-up {
+        line-height: 12px;
+    }
+    
+    .button-to-center {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 452px) {
+    .num {
+        margin-left: 130px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    
+}
