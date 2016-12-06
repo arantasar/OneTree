@@ -58,7 +58,19 @@ body {
     padding-right: 15px;
 }
 
-#exCollapsingNavbar2 {
+.navbar-brand:hover {
+    
+}
+
+.mynav {
+    border: none;
+    border-radius: 0;
+    padding: 8px;
+    padding-right: 30px;
+}
+
+#exCollapsingNavbar2, 
+#myNavbar {
     font-family: "Lato";
 }
 
@@ -320,6 +332,7 @@ body {
 blockquote {
     font-family: "Lato";
     text-align: justify;
+    border: none;
 }
 
 .fa.fa-quote-right {
@@ -596,11 +609,20 @@ footer .udemy {
     .fa-google-plus-square,
     .fa-instagram,
     .fa-chevron-circle-up {
-        font-size: 32px;
+        font-size: 30px;
     }
     
     .udemy {
         display: none;
+    }
+    
+    #contact .control-label,
+    .form-control {
+        font-size: 16px;
+    }
+    
+    .num {
+        margin-left: 160px;
     }
 }
 
@@ -611,12 +633,13 @@ footer .udemy {
         display: none;
     }
     
-    .customer-image {
-        width: 70px;
+    .mynav {
+        font-size: 12px;
     }
     
     blockquote {
-        font-size: 14px;
+        font-size: 18px;
+        margin-top: 30px;
     }
     
     #contact .control-label,
@@ -628,15 +651,26 @@ footer .udemy {
         margin-top: 20px;
         padding-right: 20px;
     }
+    
+    .social-links {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .customer-image {
+        width: 160px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .num {
+        margin-left: 100px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
  
-    #exCollapsingNavbar2,
-    .navbar-brand {
-        font-size: 14px;
-        line-height: 14px;
-    }
+
     
     .customer-image {
         width: 160px;
@@ -657,6 +691,10 @@ footer .udemy {
         padding-top: 1rem;
     }
     
+    .num {
+        margin-left: 220px;
+    }
+    
     .social-links {
         margin: auto;
         width: 100%;
@@ -672,7 +710,7 @@ footer .udemy {
     
 }
 
-@media only screen and (max-width: 452px) {
+@media only screen and (max-width: 480px) {
     .num {
         margin-left: 130px;
         padding-top: 40px;

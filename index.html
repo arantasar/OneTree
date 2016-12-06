@@ -9,14 +9,17 @@
         ======================================================================= -->
 
         <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/animate.css">
 
 
-        <title></title>
+        <title>OneTree</title>
     </head>
     <body>
 
@@ -48,13 +51,18 @@
         <!-- NAVIGATION 
         =================================================== -->
 
-       <nav class="navbar navbar-dark bg-inverse navbar-full">
-           <button class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
-
-            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-                <a href="#cover" class="navbar-brand">ONE<span class="bold-green">TREE</span></a>
-                <ul class="nav navbar-nav pull-right">
-                   <li class="nav-item">
+        <nav class="navbar navbar-full navbar-inverse mynav">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expaded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+                <a href="#cover" class="navbar-brand">ONE<span class="bold-green">TREE</span></a>            
+                </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="nav-item">
                        <a href="#cover" class="nav-link">Home</a>
                    </li>
                    <li class="nav-item">
@@ -75,9 +83,10 @@
                    <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact us</a>
                    </li>
-                </ul>
+              </ul>
             </div>
-       </nav>
+        </nav>
+
          
        <!-- FEATURES 
        =================================================== -->
@@ -173,7 +182,7 @@
         <section id="section-parallax" data-type="background" data-speed="4">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8 offset-sm-2">
+                    <div class="col-sm-8 col-md-offset-2 col-sm-offset-2">
                         <h2>Are you ready to be a part of <strong>the story</strong>?</h2>
                         <p><a href="#contact" class="btn btn-lg btn-block btn-success parallax-btn">Yes, please!</a></p>
                     </div>
@@ -245,7 +254,7 @@
                 <h2 class="card js-wp-13">The <span class="bold-green">numbers</span> don't lie</h2>
                 <p class="lead under-heading js-wp-13">Check out what our numbers tell about us</p>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-xm-6 col-lg-3">
+                    <div class="col-sm-6 col-md-6 col-xm-12 col-lg-3">
                         <div class="num">
                             <div class="num-content">
                                 <span class="counter">13,863</span>
@@ -253,7 +262,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-xm-6 col-lg-3">
+                    <div class="col-sm-6 col-md-6 col-xm-12 col-lg-3">
                         <div class="num">
                             <div class="num-content">
                                 <span class="counter">1,562</span>
@@ -261,7 +270,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-xm-6 col-lg-3">
+                    <div class="col-sm-6 col-md-6 col-xm-12 col-lg-3">
                         <div class="num">
                             <div class="num-content">
                                 <span class="counter">6,263</span>
@@ -269,7 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-xm-6 col-lg-3">
+                    <div class="col-sm-6 col-md-6 col-xm-12 col-lg-3">
                         <div class="num">
                             <div class="num-content">
                                 <span class="counter">2,866</span>
@@ -344,7 +353,7 @@
            <div class="section-contact">
                <div class="container">
                    <div class="row">
-                       <div class="col-md-8 offset-md-2">
+                       <div class="col-md-8 col-md-offset-2">
                            <h2 class="js-wp-18">Leave us a <span class="bold-green">message</span>!</h2>
                            <form role="form" method="post" action="index.php" class="form-horizontal">
                                <div class="form-group">
